@@ -23,8 +23,8 @@ public class TimeFormat {
 		}
 
 		else if(hours == 12 && minSin){
-			System.out.println(hours + ":0" + minSin + " PM");
-		}else if(hours == 12){
+			System.out.println(hours + ":0" + minutes + " PM");
+		}else if(hours == 12 && !minSin){
 			System.out.println(hours + ":" + minutes + " PM");
 		}
 
