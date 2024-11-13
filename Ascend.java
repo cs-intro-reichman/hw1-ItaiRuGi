@@ -13,5 +13,6 @@ public class Ascend {
 		int mid = Math.max((Math.min(a,b)), (Math.min(b, c)));
 		// The middle integer would be the output of the maximum function of the (Minimmum of a and b) and (Minimum of b and c)
 		System.out.println(trumin + " " + mid + " " + trumax);
+		int x = 0;
 	}
 }

@@ -34,5 +34,6 @@ public class TimeFormat {
 				System.out.println(hours + ":" + minutes + " AM" );
 			}
 		// This whole mess is just a bunch of if else statements for every possibility of input that is valid.
+		int x = 0;
 	}
 }

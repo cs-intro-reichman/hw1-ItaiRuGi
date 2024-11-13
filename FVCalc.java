@@ -6,6 +6,7 @@ public class FVCalc {
         int years = Integer.parseInt(args[2]);
         double futVal = currentValue * (Math.pow((1+interest/100), years));
         // I initialize a variable for each Input, then make futVal the outcome of the interest formula
+        int x = 0;
         System.out.println("After a starting investment of: " + currentValue + " shekels, at an interest rate of: " + interest + "% over " + years + "years, you will have: " + futVal + " Shekels" );
 	}
 }
