@@ -3,9 +3,9 @@ public class NumWords {
 	public static void main(String args[]) {
 		int number = Integer.parseInt(args[0]);
         int savenum = number;
-        System.out.print((savenum / 100) % 10 + " hundreds, ");
+        System.out.print((savenum / 100) + " hundreds, ");
         savenum = number;
-       
+        int x = 0;
         System.out.print(( savenum / 10 ) % 10 + " tens, and ");
         savenum = number;
         System.out.print( savenum % 10 + " ones.");

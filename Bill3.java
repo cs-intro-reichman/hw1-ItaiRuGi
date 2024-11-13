@@ -7,5 +7,6 @@ public class Bill3 {
         // In hindsight I didnt need to declare the 3 different people cause Im not using the String and this whole thing could've been one line of code. Oops.
         double bill = Double.parseDouble(args[3]); // Likewise here but this still at least makes the code look nicer.
         System.out.println("Dear " + personthree + ", " + persontwo + " and " + personone + ": pay " + Math.ceil(bill/3) + " Shekels" );
+        int thirtyrock = 0;
 	}
 }
